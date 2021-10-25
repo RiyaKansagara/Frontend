@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Project 1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        header {
+            background-color: rgb(58, 61, 211);
+            padding: 30px;
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            li {
+                display: inline;
+            }
+            font-size: 35px;
+            color: white;
+        }
+        
+        nav {
+            ul {
+                list-style-type: none;
+                margin: 10;
+                padding: 20px;
+                display: inline;
+            }
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        link a:hover {
+            background-color: blueviolet;
+        }
+        
+        a article {
+            float: right;
+            padding: 50px;
+            width: 85%;
+            background-color: #e3e635;
+            height: 300px;
+        }
+        
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        footer {
+            background-color: rgb(56, 39, 209);
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        
+        @media (max-width: 600px) {
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            li {
+                display: inline;
+            }
+        }
+        
+        .link {
+            text-align: right;
+            color: rgb(8, 8, 8);
+            letter-spacing: px;
+            word-spacing: 15px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            font-size: 25px;
+            text-decoration: none;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <img src="Logo.jpg" alt="logo" style="float:left;height:100px;width: 150px ;">
+        <div style="margin-top:-10px;  font-size:30px;text-align: center;">
+            Riya Kansagara
+        </div>
+        <div class="link">
+            <a href="Secondpage.html" class="link">Home</a>
+            <a href="About.html" class="link">About</a>
+            <a href="reels.html" class="link">Reels</a>
+            <a href="contact.html" class="link">Contacts</a>
+        </div>
+        </div>
+    </header>
+
+    <section>
+        <img src="Riyapic.jpg" alt="Profile pic" style="height: 290px;width: 270px;">
+
+        <article>
+            <h1>Hello Everyone!</h1>
+            <h4>This is my First HTML PROJECT.</h4>
+        </article>
+    </section>
+
+    <footer>
+        <p>@copyrighht <small> 2021-2022</small></p>
+    </footer>
+
+</body>
+
+</html>

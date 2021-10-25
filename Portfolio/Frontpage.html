@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <style>
+        body {
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        table,
+        th,
+        tr,
+        td {
+            background-color: rgb(165, 207, 218);
+            margin-top: 50px;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 50px;
+            padding-bottom: 10px;
+            margin-left: 50px;
+            margin-right: 5px;
+        }
+        
+        button {
+            background-color: cornflowerblue;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        
+        input {
+            background-color: rgb(252, 251, 247);
+        }
+        
+        header {
+            background-color: rgb(51, 192, 51);
+            padding: 20px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+            margin-bottom: 5px;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin-bottom: 5px;
+            margin-top: 0px;
+            padding: 0;
+            overflow: hidden;
+            background-color: cornflowerblue;
+        }
+        
+        li {
+            float: right;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            background-color: rgb(14, 165, 34);
+        }
+        
+        footer {
+            background-color: cornflowerblue;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="login">
+        <center>
+            <table>
+                <tr>
+                    <td colspan="2" style="text-align:center;background-color:rgb(231, 76, 28);"><b>LOGIN PAGE</b></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>User id:</p>
+                    </td>
+                    <td>
+                        <input type="email" autofocus>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Password:</p>
+                    </td>
+                    <td>
+                        <input type="password" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" autofocus>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:center;">
+                        <button type="submit" onclick="document.location='Secondpage.html'"><strong>Sign in</strong></button>
+                    </td>
+            </table>
+        </center>
+    </div>
+</body>
+
+</html>
