@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Zen Antique', serif;
+}
+
+.navbar {
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(197, 221, 235);
+}
+
+.front {
+    background-color: rgb(197, 221, 235);
+}
